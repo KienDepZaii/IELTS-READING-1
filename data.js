@@ -308,7 +308,7 @@ const passages = [
       },
       {
         type: "fill",
-        instruction: "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        instruction: "Complete the sentences below.",
         questions: [
           { num: 38, text: "The Rational Actor Model was central to classical ________ and public policy.", answer: "economics" },
           { num: 39, text: "Mental shortcuts used in decision-making are also known as ________.", answer: "heuristics" },
