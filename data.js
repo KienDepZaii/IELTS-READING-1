@@ -297,7 +297,7 @@ const passages = [
       },
       {
         type: "tfng",
-        instruction: "Do the following statements agree with the claims of the writer? Write TRUE, FALSE, or NOT GIVEN.",
+        instruction: "Do the following statements agree with the claims of the writer? Choose TRUE, FALSE, or NOT GIVEN.",
         questions: [
           { num: 33, text: "Daniel Kahneman and Amos Tversky were both born in Israel.", answer: "NOT GIVEN" },
           { num: 34, text: "Loss aversion can explain why investors keep losing stocks too long.", answer: "TRUE" },
