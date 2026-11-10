@@ -61,7 +61,7 @@ const passages = [
       },
       {
         type: "tfng",
-        instruction: "Do the following statements agree with the information given in the reading passage? Write TRUE, FALSE, or NOT GIVEN.",
+        instruction: "Do the following statements agree with the information given in the reading passage? Choose TRUE, FALSE, or NOT GIVEN.",
         questions: [
           { num: 7,  text: "ARPANET was originally designed for public communication.", answer: "FALSE" },
           { num: 8,  text: "TCP/IP was created in 1983 and is still used today.", answer: "TRUE" },
@@ -73,7 +73,7 @@ const passages = [
       },
       {
         type: "fill",
-        instruction: "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        instruction: "Complete the sentences below.",
         questions: [
           { num: 13, text: "ARPANET used ________ to break data into small chunks for transmission.", answer: "packet switching" },
           { num: 14, text: "TCP/IP provided a common ________ for computers on the network.", answer: "language" }
@@ -179,7 +179,7 @@ const passages = [
       },
       {
         type: "fill",
-        instruction: "Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        instruction: "Complete the notes below.",
         questions: [
           { num: 20, text: "Hydroponics is a system in which plants grow in ________ rather than soil.", answer: "nutrient-rich water" },
           { num: 21, text: "Areas with limited access to fresh produce are sometimes called '________ deserts'.", answer: "food" },
@@ -188,7 +188,7 @@ const passages = [
       },
       {
         type: "tfng",
-        instruction: "Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
+        instruction: "Do the following statements agree with the information given in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
         questions: [
           { num: 23, text: "Victory gardens supplied a notable portion of vegetables consumed during World War II.", answer: "TRUE" },
           { num: 24, text: "Vertical farms use more water than conventional farms.", answer: "FALSE" },
@@ -348,7 +348,7 @@ const practiceTests = [
         },
         {
           type: "tfng",
-          instruction: "Do the following statements agree with the information in the passage? Write TRUE, FALSE or NOT GIVEN.",
+          instruction: "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
           questions: [
             { num: 5, text: "The library originally occupied two rooms above a post office.", answer: "TRUE" },
             { num: 6, text: "Visitors must pay to attend the English conversation sessions.", answer: "FALSE" },
@@ -357,7 +357,7 @@ const practiceTests = [
         },
         {
           type: "fill",
-          instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.",
+          instruction: "Complete each sentence below.",
           questions: [
             { num: 8, text: "The new library opened beside the ________ station.", answer: "bus" },
             { num: 9, text: "Children can receive help with their ________ on Tuesday afternoons.", answer: "homework" },
@@ -395,7 +395,7 @@ const practiceTests = [
         },
         {
           type: "tfng",
-          instruction: "Do the following statements agree with the information in the passage? Write TRUE, FALSE or NOT GIVEN.",
+          instruction: "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
           questions: [
             { num: 5, text: "The urban heat-island effect is exactly the same in every city.", answer: "FALSE" },
             { num: 6, text: "Young trees may take several years to provide substantial shade.", answer: "TRUE" },
@@ -404,7 +404,7 @@ const practiceTests = [
         },
         {
           type: "fill",
-          instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.",
+          instruction: "Complete each sentence below.",
           questions: [
             { num: 8, text: "Roads and roofs absorb energy from ________ during the day.", answer: "sunlight" },
             { num: 9, text: "Tree planning needs to account for water supply and root ________.", answer: "space" },
@@ -443,7 +443,7 @@ const practiceTests = [
         },
         {
           type: "tfng",
-          instruction: "Do the following statements agree with the information in the passage? Write TRUE, FALSE or NOT GIVEN.",
+          instruction: "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
           questions: [
             { num: 5, text: "A detection-only measure may exaggerate how much information a person consciously understood.", answer: "TRUE" },
             { num: 6, text: "The commuter study found that participants noticed messages more consistently in unfamiliar stations.", answer: "FALSE" },
@@ -452,7 +452,7 @@ const practiceTests = [
         },
         {
           type: "fill",
-          instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.",
+          instruction: "Complete each sentence below.",
           questions: [
             { num: 8, text: "Researchers can vary the interval between ________ to study task performance.", answer: "trials" },
             { num: 9, text: "Frequent signals may lead users to ignore them or respond ________.", answer: "automatically" },
@@ -487,12 +487,12 @@ practiceTests.push(
           { num: 3, text: "What is one advantage of using the cafe's tools?", options: [{ letter: "A", text: "Visitors need not buy equipment for one repair." }, { letter: "B", text: "Repairs can always be completed more quickly." }, { letter: "C", text: "Volunteers can take objects home." }, { letter: "D", text: "The cafe can repair large appliances." }], answer: "A" },
           { num: 4, text: "How do organisers also assess the cafe's success?", options: [{ letter: "A", text: "By counting how many new tools are donated." }, { letter: "B", text: "By asking whether visitors reuse repair skills." }, { letter: "C", text: "By measuring the value of repaired objects." }, { letter: "D", text: "By comparing attendance with other towns." }], answer: "B" }
         ] },
-        { type: "tfng", instruction: "Do the following statements agree with the information in the passage? Write TRUE, FALSE or NOT GIVEN.", questions: [
+        { type: "tfng", instruction: "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.", questions: [
           { num: 5, text: "The Westbank repair cafe began in 2014.", answer: "TRUE" },
           { num: 6, text: "Visitors must make a contribution before receiving help.", answer: "FALSE" },
           { num: 7, text: "The community hall is owned by the local council.", answer: "NOT GIVEN" }
         ] },
-        { type: "fill", instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.", questions: [
+        { type: "fill", instruction: "Complete each sentence below.", questions: [
           { num: 8, text: "The event takes place on the first ________ of each month.", answer: "Sunday" },
           { num: 9, text: "Visitors email a description so organisers can prepare spare ________.", answer: "parts" },
           { num: 10, text: "The cafe does not accept large ________.", answer: "appliances" }
@@ -522,12 +522,12 @@ practiceTests.push(
           { num: 3, text: "Why might engineers make only a small opening in an embankment at first?", options: [{ letter: "A", text: "To prevent any plants from returning." }, { letter: "B", text: "To observe water movement and reduce uncertainty." }, { letter: "C", text: "To avoid consulting nearby residents." }, { letter: "D", text: "To make the project finish in one tidal cycle." }], answer: "B" },
           { num: 4, text: "What does paragraph D suggest about plant cover?", options: [{ letter: "A", text: "It is the only reliable measure of restoration." }, { letter: "B", text: "It can increase without the whole ecosystem recovering." }, { letter: "C", text: "It should be measured only once." }, { letter: "D", text: "It is unrelated to marsh health." }], answer: "B" }
         ] },
-        { type: "tfng", instruction: "Do the following statements agree with the information in the passage? Write TRUE, FALSE or NOT GIVEN.", questions: [
+        { type: "tfng", instruction: "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.", questions: [
           { num: 5, text: "Salt marsh soils can store carbon.", answer: "TRUE" },
           { num: 6, text: "Restoration engineers always remove all coastal embankments at the start of a project.", answer: "FALSE" },
           { num: 7, text: "The passage identifies a particular country with the most successful marsh restoration programme.", answer: "NOT GIVEN" }
         ] },
-        { type: "fill", instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.", questions: [
+        { type: "fill", instruction: "Complete each sentence below.", questions: [
           { num: 8, text: "Marsh grasses trap fine ________ carried by water.", answer: "sediment" },
           { num: 9, text: "A limited opening can be observed through several ________ cycles.", answer: "tidal" },
           { num: 10, text: "Project teams record whether homes or paths experience unexpected ________.", answer: "flooding" }
@@ -557,12 +557,12 @@ practiceTests.push(
           { num: 3, text: "What warning does paragraph C make about screens?", options: [{ letter: "A", text: "They are the sole cause of late bedtimes." }, { letter: "B", text: "Their use may be associated with, rather than cause, late sleep." }, { letter: "C", text: "They have no effect on sleep preparation." }, { letter: "D", text: "They affect only people who work nights." }], answer: "B" },
           { num: 4, text: "What has often been reported after later school start times?", options: [{ letter: "A", text: "Longer sleep on school nights." }, { letter: "B", text: "Identical academic results everywhere." }, { letter: "C", text: "A complete end to sleep loss." }, { letter: "D", text: "Earlier sleep timing among all adolescents." }], answer: "A" }
         ] },
-        { type: "tfng", instruction: "Do the following statements agree with the information in the passage? Write TRUE, FALSE or NOT GIVEN.", questions: [
+        { type: "tfng", instruction: "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.", questions: [
           { num: 5, text: "Light is one signal that can influence circadian rhythms.", answer: "TRUE" },
           { num: 6, text: "A sleep diary by itself always reveals why a person sleeps later on free days.", answer: "FALSE" },
           { num: 7, text: "The passage states the exact number of adolescents included in the school projects.", answer: "NOT GIVEN" }
         ] },
-        { type: "fill", instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.", questions: [
+        { type: "fill", instruction: "Complete each sentence below.", questions: [
           { num: 8, text: "Social jet lag describes a mismatch between biological timing and daily ________.", answer: "obligations" },
           { num: 9, text: "Researchers may ask participants about work hours and light ________.", answer: "exposure" },
           { num: 10, text: "Later school starts may reduce the gap between students' rhythms and the hours they are expected to be ________.", answer: "alert" }
@@ -592,12 +592,12 @@ practiceTests.push(
           { num: 3, text: "Why might adding many route settings be problematic?", options: [{ letter: "A", text: "It could make the service harder to use." }, { letter: "B", text: "It prevents users expressing preferences." }, { letter: "C", text: "It makes every route slower." }, { letter: "D", text: "It removes conflicts between user needs." }], answer: "A" },
           { num: 4, text: "What should researchers consider when evaluating recommendations?", options: [{ letter: "A", text: "Only whether users arrive on time." }, { letter: "B", text: "Who benefits and who bears the costs." }, { letter: "C", text: "Whether the map uses printed colours." }, { letter: "D", text: "How many roads exist in the city." }], answer: "B" }
         ] },
-        { type: "tfng", instruction: "Do the following statements agree with the information in the passage? Write TRUE, FALSE or NOT GIVEN.", questions: [
+        { type: "tfng", instruction: "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.", questions: [
           { num: 5, text: "A route service may give less importance to pavement quality than to estimated time.", answer: "TRUE" },
           { num: 6, text: "Every business located on a recommended street benefits from increased movement.", answer: "FALSE" },
           { num: 7, text: "The passage names a specific mapping company that changed its route ranking.", answer: "NOT GIVEN" }
         ] },
-        { type: "fill", instruction: "Complete each sentence with NO MORE THAN TWO WORDS from the passage.", questions: [
+        { type: "fill", instruction: "Complete each sentence below.", questions: [
           { num: 8, text: "A digital map may rank journeys by estimated ________.", answer: "time" },
           { num: 9, text: "Some routes may cross areas that are poorly ________.", answer: "lit" },
           { num: 10, text: "Before-and-after audits can help reveal ________ effects.", answer: "distributional" }
